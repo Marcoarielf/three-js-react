@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should be bold 1`] = `
+<a
+  aria-label="Click me!"
+  class="chasis-link font-size-s line-height-size-s chasis-link-bold"
+  href="https://google.com"
+  target="_self"
+>
+  Click me!
+</a>
+`;
+
+exports[`Link should be underlined 1`] = `
+<a
+  aria-label="Click me!"
+  class="chasis-link font-size-s line-height-size-s chasis-link-underlined"
+  href="https://google.com"
+  target="_self"
+>
+  Click me!
+</a>
+`;
+
+exports[`Link should have custom class 1`] = `
+<a
+  aria-label="Click me!"
+  class="chasis-link font-size-s line-height-size-s test-class"
+  href="https://google.com"
+  target="_self"
+>
+  Click me!
+</a>
+`;
+
+exports[`Link should render Link 1`] = `
+<a
+  aria-label="Click me!"
+  class="chasis-link font-size-s line-height-size-s chasis-link-bold chasis-link-icon-position-right"
+  href="https://google.com"
+  target="_self"
+  title="Mi link"
+>
+  Click me!
+</a>
+`;
